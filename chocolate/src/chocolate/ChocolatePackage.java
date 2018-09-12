@@ -2,7 +2,7 @@ package chocolate;
 
 import java.util.Scanner;
 
-public class ChocolatePackage {
+public class ChocolatePackage { 
 
 	public static void main(String[] args) {
 		
