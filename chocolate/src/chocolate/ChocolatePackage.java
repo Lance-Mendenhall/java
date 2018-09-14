@@ -13,8 +13,6 @@ public class ChocolatePackage {
 		
 		while(choice.equalsIgnoreCase("y"))
 		{
-			int smallBarsFinal = 0;
-			int bigBarsFinal = 0; 
 			int bigBarsWanted = 0;
 			int smallBarsUsed = 0;
 			int bigBarsUsed = 0;
