@@ -8,7 +8,7 @@ public class ChocolatePackage {
 		
 		Scanner sc = new Scanner(System.in);
 		String choice = "y";
-		
+		 
 		int smallBars,bigBars,goal = 0;
 		
 		while(choice.equalsIgnoreCase("y"))
