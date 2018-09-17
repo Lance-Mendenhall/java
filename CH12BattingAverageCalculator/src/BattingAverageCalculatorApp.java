@@ -39,14 +39,20 @@ public class BattingAverageCalculatorApp {
         	for(int i = 0; i < atBats;i++)
         	{
         		System.out.println("Result for at-bat : " + (i + 1));
-        		int result = sc.nextInt();
+        		int result = 0;
         		validEntry = false;
         		while (!validEntry)
             	{
+        			result = sc.nextInt();
             		if (result >= 0 && result <= 4 )
             		{
             			validEntry = true;
             		}	
+            		else 
+            		{
+            			validEntry = false;
+            			System.out.println("Please enter a value from 0 to 4.");
+            		}
             	}
         		
         		myBACalc.addToStats(result);
