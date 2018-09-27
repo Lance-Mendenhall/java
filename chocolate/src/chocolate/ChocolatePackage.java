@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ChocolatePackage { 
 
 	public static void main(String[] args) {
-		
+		 
 		Scanner sc = new Scanner(System.in);
 		String choice = "y";
 		 
@@ -77,7 +77,7 @@ public class ChocolatePackage {
 			}
 			else
 			{
-				System.out.println("You cannot achieve your chocolate dreams. \n ");
+				System.out.println("You're no Willy Wonka.  \n ");
 			}
 			
 			System.out.println("Do you want to try to make more chocolate? ");
